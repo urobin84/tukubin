@@ -25,4 +25,124 @@
     overflow: hidden;
   }
 
+  .AllCategoryTab {
+    display: flex;
+    position: relative;
+    min-height: 48px;
+    white-space: nowrap;
+    background-color: var(--NN0, #FFFFFF);
+    overflow: auto hidden;
+    padding: 0px 0px 0px 26px;
+    border-bottom: 1px solid var(--NN50, #F0F3F7);
+  }
+
+  .BtnHeaderCategoty {
+    display: flex;
+    box-sizing: border-box;
+    height: 52px;
+    line-height: 18px;
+    font-weight: 500;
+    color: var(--NN600, #6D7588);
+    text-transform: capitalize;
+    font-size: 13px;
+    cursor: pointer;
+    padding: 4px 24px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .CategoryContainer {
+    display: flex;
+    padding: 0px 0px 0px 26px;
+    height: calc(445px);
+  }
+
+  .AllCategories {
+    width: 16%;
+    border-right: 1px solid var(--NN50, #F0F3F7);
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    max-height: calc(445px);
+  }
+
+  .ItemListCategories {
+    color: var(--NN950, #212121);
+    font-size: 12px;
+    font-weight: 600;
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin: 4% 0px 0px;
+    transition: background-color 280ms ease 0s;
+    -webkit-font-smoothing: antialiased;
+    line-height: 14px;
+    height: 29px;
+  }
+
+  .AllCategoryCild {
+    display: flex;
+    flex-direction: column;
+    width: 84%;
+    overflow: auto;
+    max-height: calc(445px);
+  }
+
+  .CaptionCategoryList {
+    color: var(--NN950, #212121);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 5px 0px 10px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .SubCaptionCategory {
+    margin: 0px 0px 16px;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--NN950, #212121);
+    font-size: 12px;
+  }
+
+  .ListChildCategoryContainer {
+    flex-direction: column;
+    color: var(--NN950, #212121);
+    font-size: 12px;
+    display: block;
+    text-decoration: none;
+    transition: color 280ms ease 0s;
+    -webkit-font-smoothing: antialiased;
+    white-space: normal;
+  }
+
+  .ItemListChildCategory {
+    line-height: 1.5;
+    margin: 8px 0px;
+    display: flex;
+    color: var(--NN950, #212121);
+  }
+
+  .ImageCategoryCaption {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+  }
+
+  .GroupSubCategoryContainer {
+    width: 100%;
+    vertical-align: top;
+    display: inline-block;
+    margin-bottom: 24px;
+  }
+
 }

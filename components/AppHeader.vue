@@ -30,24 +30,432 @@
                 <NavigationMenuTrigger
                   class="text-[#212121] text-sm leading-[18px] text-ellipsis h-[40px] w-[74px] flex items-center justify-center">
                   Kategori</NavigationMenuTrigger>
-                <NavigationMenuContent class="MegaMenuContainer">
-                  <ul class="grid gap-3 left-0 p-6 lg:grid-cols-[minmax(0,.75fr)_minmax(0,1fr)]">
-                    <li class="row-span-3">
-                      <NavigationMenuLink as-child>
-                        <a class="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                          href="/">
-                          <img src="https://www.radix-vue.com/logo.svg" class="h-6 w-6">
-                          <div class="mb-2 mt-4 text-lg font-medium">
-                            shadcn/ui
+                <NavigationMenuContent>
+                  <div>
+                    <div class="AllCategoryTab">
+                      <div class="BtnHeaderCategoty">Belanja</div>
+                      <div class="BtnHeaderCategoty">Featured</div>
+                      <div class="BtnHeaderCategoty">Kebutuhan Harian</div>
+                      <div class="BtnHeaderCategoty">Tagihan</div>
+                      <div class="BtnHeaderCategoty">Top-Up</div>
+                      <div class="BtnHeaderCategoty">TukuBin Keuangan</div>
+                      <div class="BtnHeaderCategoty">Pajak & Pendidikan</div>
+                      <div class="BtnHeaderCategoty">Travel & Entertainment</div>
+                      <div class="BtnHeaderCategoty">Halal Corner</div>
+                      <div class="BtnHeaderCategoty">Lain - lain</div>
+                    </div>
+                    <div class="CategoryContainer">
+                      <div class="AllCategories">
+                        <a href="#" class="ItemListCategories">Rumah Tangga</a>
+                        <a href="#" class="ItemListCategories">Audio, Kamera & Elektronik Lainnya</a>
+                        <a href="#" class="ItemListCategories">Buku</a>
+                        <a href="#" class="ItemListCategories">Dapur</a>
+                        <a href="#" class="ItemListCategories">Elektronik</a>
+                        <a href="#" class="ItemListCategories">Fashion Anak & Bayi</a>
+                        <a href="#" class="ItemListCategories">Fashion Muslim</a>
+                        <a href="#" class="ItemListCategories">Fashion Pria</a>
+                        <a href="#" class="ItemListCategories">Fashion Wanita</a>
+                        <a href="#" class="ItemListCategories">Film & Musik</a>
+                        <a href="#" class="ItemListCategories">Gaming</a>
+                        <a href="#" class="ItemListCategories">Handphone & Tablet</a>
+                        <a href="#" class="ItemListCategories">Ibu & Bayi</a>
+                        <a href="#" class="ItemListCategories">Kecantikan</a>
+                        <a href="#" class="ItemListCategories">Kesehatan</a>
+                        <a href="#" class="ItemListCategories">Komputer & Laptop</a>
+                        <a href="#" class="ItemListCategories">Logam Mulia</a>
+                        <a href="#" class="ItemListCategories">Mainan & Hobi</a>
+                        <a href="#" class="ItemListCategories">Makanan & Minuman</a>
+                        <a href="#" class="ItemListCategories">Office & Stationery</a>
+                        <a href="#" class="ItemListCategories">Olahraga</a>
+                        <a href="#" class="ItemListCategories">Otomotif</a>
+                        <a href="#" class="ItemListCategories">Perawatan Hewan</a>
+                        <a href="#" class="ItemListCategories">Perawatan Tubuh</a>
+                        <a href="#" class="ItemListCategories">Perlengkapan Pesta</a>
+                        <a href="#" class="ItemListCategories">Pertukangan</a>
+                        <a href="#" class="ItemListCategories">Produk Lainnya</a>
+                        <a href="#" class="ItemListCategories">Properti</a>
+                        <a href="#" class="ItemListCategories">Tiket, Travel, Voucher</a>
+                        <a href="#" class="ItemListCategories">Wedding</a>
+                      </div>
+                      <div class="AllCategoryCild">
+                        <div class=" flex flex-col pt-8 px-8 ">
+                          <div class="flex">
+                            <img src="./../public/images/imgRumahTanggaCategory.png" alt="Rumah Tangga"
+                              class="ImageCategoryCaption">
+                            <div class="CaptionCategoryList">Rumah Tangga</div>
                           </div>
-                          <p class="text-sm leading-tight text-muted-foreground">
-                            Beautifully designed components built with Radix UI and
-                            Tailwind CSS.
-                          </p>
-                        </a>
-                      </NavigationMenuLink>
-                    </li>
-                  </ul>
+                          <div class="flex w-full">
+                            <div class="grid grid-cols-5 gap-6 w-full">
+                              <div class="GroupSubCategoryContainer">
+                                <div>
+                                  <a href="#" class="SubCaptionCategory">Dekorasi</a>
+                                </div>
+                                <div class="ListChildCategoryContainer">
+                                  <a href="#" class="ItemListChildCategory">Cover Kipas Angin</a>
+                                  <a href="#" class="ItemListChildCategory">Cover Kursi</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Keset</a>
+                                  <a href="#" class="ItemListChildCategory">Lampu Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin Aroma Terapi</a>
+                                  <a href="#" class="ItemListChildCategory">Lukisan</a>
+                                  <a href="#" class="ItemListChildCategory">Patung</a>
+                                  <a href="#" class="ItemListChildCategory">Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Reed Diffuser</a>
+                                  <a href="#" class="ItemListChildCategory">Slinger</a>
+                                  <a href="#" class="ItemListChildCategory">Stiker Kaca</a>
+                                  <a href="#" class="ItemListChildCategory">Tanaman Artifical</a>
+                                  <a href="#" class="ItemListChildCategory">Taplak Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Tempat Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Vas Bunga</a>
+                                  <a href="#" class="ItemListChildCategory">Wall Sticker</a>
+                                </div>
+                              </div>
+                              <div class="GroupSubCategoryContainer">
+                                <div>
+                                  <a href="#" class="SubCaptionCategory">Dekorasi</a>
+                                </div>
+                                <div class="ListChildCategoryContainer">
+                                  <a href="#" class="ItemListChildCategory">Cover Kipas Angin</a>
+                                  <a href="#" class="ItemListChildCategory">Cover Kursi</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Keset</a>
+                                  <a href="#" class="ItemListChildCategory">Lampu Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin Aroma Terapi</a>
+                                  <a href="#" class="ItemListChildCategory">Lukisan</a>
+                                  <a href="#" class="ItemListChildCategory">Patung</a>
+                                  <a href="#" class="ItemListChildCategory">Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Reed Diffuser</a>
+                                  <a href="#" class="ItemListChildCategory">Slinger</a>
+                                  <a href="#" class="ItemListChildCategory">Stiker Kaca</a>
+                                  <a href="#" class="ItemListChildCategory">Tanaman Artifical</a>
+                                  <a href="#" class="ItemListChildCategory">Taplak Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Tempat Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Vas Bunga</a>
+                                  <a href="#" class="ItemListChildCategory">Wall Sticker</a>
+                                </div>
+                              </div>
+                              <div class="GroupSubCategoryContainer">
+                                <div>
+                                  <a href="#" class="SubCaptionCategory">Dekorasi</a>
+                                </div>
+                                <div class="ListChildCategoryContainer">
+                                  <a href="#" class="ItemListChildCategory">Cover Kipas Angin</a>
+                                  <a href="#" class="ItemListChildCategory">Cover Kursi</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Keset</a>
+                                  <a href="#" class="ItemListChildCategory">Lampu Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin Aroma Terapi</a>
+                                  <a href="#" class="ItemListChildCategory">Lukisan</a>
+                                  <a href="#" class="ItemListChildCategory">Patung</a>
+                                  <a href="#" class="ItemListChildCategory">Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Reed Diffuser</a>
+                                  <a href="#" class="ItemListChildCategory">Slinger</a>
+                                  <a href="#" class="ItemListChildCategory">Stiker Kaca</a>
+                                  <a href="#" class="ItemListChildCategory">Tanaman Artifical</a>
+                                  <a href="#" class="ItemListChildCategory">Taplak Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Tempat Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Vas Bunga</a>
+                                  <a href="#" class="ItemListChildCategory">Wall Sticker</a>
+                                </div>
+                              </div>
+                              <div class="GroupSubCategoryContainer">
+                                <div>
+                                  <a href="#" class="SubCaptionCategory">Dekorasi</a>
+                                </div>
+                                <div class="ListChildCategoryContainer">
+                                  <a href="#" class="ItemListChildCategory">Cover Kipas Angin</a>
+                                  <a href="#" class="ItemListChildCategory">Cover Kursi</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Keset</a>
+                                  <a href="#" class="ItemListChildCategory">Lampu Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin Aroma Terapi</a>
+                                  <a href="#" class="ItemListChildCategory">Lukisan</a>
+                                  <a href="#" class="ItemListChildCategory">Patung</a>
+                                  <a href="#" class="ItemListChildCategory">Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Reed Diffuser</a>
+                                  <a href="#" class="ItemListChildCategory">Slinger</a>
+                                  <a href="#" class="ItemListChildCategory">Stiker Kaca</a>
+                                  <a href="#" class="ItemListChildCategory">Tanaman Artifical</a>
+                                  <a href="#" class="ItemListChildCategory">Taplak Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Tempat Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Vas Bunga</a>
+                                  <a href="#" class="ItemListChildCategory">Wall Sticker</a>
+                                </div>
+                              </div>
+                              <div class="GroupSubCategoryContainer">
+                                <div>
+                                  <a href="#" class="SubCaptionCategory">Dekorasi</a>
+                                </div>
+                                <div class="ListChildCategoryContainer">
+                                  <a href="#" class="ItemListChildCategory">Cover Kipas Angin</a>
+                                  <a href="#" class="ItemListChildCategory">Cover Kursi</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Keset</a>
+                                  <a href="#" class="ItemListChildCategory">Lampu Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin Aroma Terapi</a>
+                                  <a href="#" class="ItemListChildCategory">Lukisan</a>
+                                  <a href="#" class="ItemListChildCategory">Patung</a>
+                                  <a href="#" class="ItemListChildCategory">Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Reed Diffuser</a>
+                                  <a href="#" class="ItemListChildCategory">Slinger</a>
+                                  <a href="#" class="ItemListChildCategory">Stiker Kaca</a>
+                                  <a href="#" class="ItemListChildCategory">Tanaman Artifical</a>
+                                  <a href="#" class="ItemListChildCategory">Taplak Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Tempat Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Vas Bunga</a>
+                                  <a href="#" class="ItemListChildCategory">Wall Sticker</a>
+                                </div>
+                              </div>
+                              <div class="GroupSubCategoryContainer">
+                                <div>
+                                  <a href="#" class="SubCaptionCategory">Dekorasi</a>
+                                </div>
+                                <div class="ListChildCategoryContainer">
+                                  <a href="#" class="ItemListChildCategory">Cover Kipas Angin</a>
+                                  <a href="#" class="ItemListChildCategory">Cover Kursi</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Keset</a>
+                                  <a href="#" class="ItemListChildCategory">Lampu Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin Aroma Terapi</a>
+                                  <a href="#" class="ItemListChildCategory">Lukisan</a>
+                                  <a href="#" class="ItemListChildCategory">Patung</a>
+                                  <a href="#" class="ItemListChildCategory">Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Reed Diffuser</a>
+                                  <a href="#" class="ItemListChildCategory">Slinger</a>
+                                  <a href="#" class="ItemListChildCategory">Stiker Kaca</a>
+                                  <a href="#" class="ItemListChildCategory">Tanaman Artifical</a>
+                                  <a href="#" class="ItemListChildCategory">Taplak Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Tempat Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Vas Bunga</a>
+                                  <a href="#" class="ItemListChildCategory">Wall Sticker</a>
+                                </div>
+                              </div>
+                              <div class="GroupSubCategoryContainer">
+                                <div>
+                                  <a href="#" class="SubCaptionCategory">Dekorasi</a>
+                                </div>
+                                <div class="ListChildCategoryContainer">
+                                  <a href="#" class="ItemListChildCategory">Cover Kipas Angin</a>
+                                  <a href="#" class="ItemListChildCategory">Cover Kursi</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Keset</a>
+                                  <a href="#" class="ItemListChildCategory">Lampu Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin Aroma Terapi</a>
+                                  <a href="#" class="ItemListChildCategory">Lukisan</a>
+                                  <a href="#" class="ItemListChildCategory">Patung</a>
+                                  <a href="#" class="ItemListChildCategory">Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Reed Diffuser</a>
+                                  <a href="#" class="ItemListChildCategory">Slinger</a>
+                                  <a href="#" class="ItemListChildCategory">Stiker Kaca</a>
+                                  <a href="#" class="ItemListChildCategory">Tanaman Artifical</a>
+                                  <a href="#" class="ItemListChildCategory">Taplak Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Tempat Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Vas Bunga</a>
+                                  <a href="#" class="ItemListChildCategory">Wall Sticker</a>
+                                </div>
+                              </div>
+                              <div class="GroupSubCategoryContainer">
+                                <div>
+                                  <a href="#" class="SubCaptionCategory">Dekorasi</a>
+                                </div>
+                                <div class="ListChildCategoryContainer">
+                                  <a href="#" class="ItemListChildCategory">Cover Kipas Angin</a>
+                                  <a href="#" class="ItemListChildCategory">Cover Kursi</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Keset</a>
+                                  <a href="#" class="ItemListChildCategory">Lampu Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin Aroma Terapi</a>
+                                  <a href="#" class="ItemListChildCategory">Lukisan</a>
+                                  <a href="#" class="ItemListChildCategory">Patung</a>
+                                  <a href="#" class="ItemListChildCategory">Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Reed Diffuser</a>
+                                  <a href="#" class="ItemListChildCategory">Slinger</a>
+                                  <a href="#" class="ItemListChildCategory">Stiker Kaca</a>
+                                  <a href="#" class="ItemListChildCategory">Tanaman Artifical</a>
+                                  <a href="#" class="ItemListChildCategory">Taplak Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Tempat Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Vas Bunga</a>
+                                  <a href="#" class="ItemListChildCategory">Wall Sticker</a>
+                                </div>
+                              </div>
+                              <div class="GroupSubCategoryContainer">
+                                <div>
+                                  <a href="#" class="SubCaptionCategory">Dekorasi</a>
+                                </div>
+                                <div class="ListChildCategoryContainer">
+                                  <a href="#" class="ItemListChildCategory">Cover Kipas Angin</a>
+                                  <a href="#" class="ItemListChildCategory">Cover Kursi</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Keset</a>
+                                  <a href="#" class="ItemListChildCategory">Lampu Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin Aroma Terapi</a>
+                                  <a href="#" class="ItemListChildCategory">Lukisan</a>
+                                  <a href="#" class="ItemListChildCategory">Patung</a>
+                                  <a href="#" class="ItemListChildCategory">Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Reed Diffuser</a>
+                                  <a href="#" class="ItemListChildCategory">Slinger</a>
+                                  <a href="#" class="ItemListChildCategory">Stiker Kaca</a>
+                                  <a href="#" class="ItemListChildCategory">Tanaman Artifical</a>
+                                  <a href="#" class="ItemListChildCategory">Taplak Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Tempat Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Vas Bunga</a>
+                                  <a href="#" class="ItemListChildCategory">Wall Sticker</a>
+                                </div>
+                              </div>
+                              <div class="GroupSubCategoryContainer">
+                                <div>
+                                  <a href="#" class="SubCaptionCategory">Dekorasi</a>
+                                </div>
+                                <div class="ListChildCategoryContainer">
+                                  <a href="#" class="ItemListChildCategory">Cover Kipas Angin</a>
+                                  <a href="#" class="ItemListChildCategory">Cover Kursi</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Keset</a>
+                                  <a href="#" class="ItemListChildCategory">Lampu Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin Aroma Terapi</a>
+                                  <a href="#" class="ItemListChildCategory">Lukisan</a>
+                                  <a href="#" class="ItemListChildCategory">Patung</a>
+                                  <a href="#" class="ItemListChildCategory">Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Reed Diffuser</a>
+                                  <a href="#" class="ItemListChildCategory">Slinger</a>
+                                  <a href="#" class="ItemListChildCategory">Stiker Kaca</a>
+                                  <a href="#" class="ItemListChildCategory">Tanaman Artifical</a>
+                                  <a href="#" class="ItemListChildCategory">Taplak Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Tempat Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Vas Bunga</a>
+                                  <a href="#" class="ItemListChildCategory">Wall Sticker</a>
+                                </div>
+                              </div>
+                              <div class="GroupSubCategoryContainer">
+                                <div>
+                                  <a href="#" class="SubCaptionCategory">Dekorasi</a>
+                                </div>
+                                <div class="ListChildCategoryContainer">
+                                  <a href="#" class="ItemListChildCategory">Cover Kipas Angin</a>
+                                  <a href="#" class="ItemListChildCategory">Cover Kursi</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Keset</a>
+                                  <a href="#" class="ItemListChildCategory">Lampu Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin Aroma Terapi</a>
+                                  <a href="#" class="ItemListChildCategory">Lukisan</a>
+                                  <a href="#" class="ItemListChildCategory">Patung</a>
+                                  <a href="#" class="ItemListChildCategory">Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Reed Diffuser</a>
+                                  <a href="#" class="ItemListChildCategory">Slinger</a>
+                                  <a href="#" class="ItemListChildCategory">Stiker Kaca</a>
+                                  <a href="#" class="ItemListChildCategory">Tanaman Artifical</a>
+                                  <a href="#" class="ItemListChildCategory">Taplak Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Tempat Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Vas Bunga</a>
+                                  <a href="#" class="ItemListChildCategory">Wall Sticker</a>
+                                </div>
+                              </div>
+                              <div class="GroupSubCategoryContainer">
+                                <div>
+                                  <a href="#" class="SubCaptionCategory">Dekorasi</a>
+                                </div>
+                                <div class="ListChildCategoryContainer">
+                                  <a href="#" class="ItemListChildCategory">Cover Kipas Angin</a>
+                                  <a href="#" class="ItemListChildCategory">Cover Kursi</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Keset</a>
+                                  <a href="#" class="ItemListChildCategory">Lampu Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin Aroma Terapi</a>
+                                  <a href="#" class="ItemListChildCategory">Lukisan</a>
+                                  <a href="#" class="ItemListChildCategory">Patung</a>
+                                  <a href="#" class="ItemListChildCategory">Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Reed Diffuser</a>
+                                  <a href="#" class="ItemListChildCategory">Slinger</a>
+                                  <a href="#" class="ItemListChildCategory">Stiker Kaca</a>
+                                  <a href="#" class="ItemListChildCategory">Tanaman Artifical</a>
+                                  <a href="#" class="ItemListChildCategory">Taplak Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Tempat Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Vas Bunga</a>
+                                  <a href="#" class="ItemListChildCategory">Wall Sticker</a>
+                                </div>
+                              </div>
+                              <div class="GroupSubCategoryContainer">
+                                <div>
+                                  <a href="#" class="SubCaptionCategory">Dekorasi</a>
+                                </div>
+                                <div class="ListChildCategoryContainer">
+                                  <a href="#" class="ItemListChildCategory">Cover Kipas Angin</a>
+                                  <a href="#" class="ItemListChildCategory">Cover Kursi</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Hiasan Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Dinding</a>
+                                  <a href="#" class="ItemListChildCategory">Jam Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Keset</a>
+                                  <a href="#" class="ItemListChildCategory">Lampu Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Lilin Aroma Terapi</a>
+                                  <a href="#" class="ItemListChildCategory">Lukisan</a>
+                                  <a href="#" class="ItemListChildCategory">Patung</a>
+                                  <a href="#" class="ItemListChildCategory">Pohon Natal</a>
+                                  <a href="#" class="ItemListChildCategory">Reed Diffuser</a>
+                                  <a href="#" class="ItemListChildCategory">Slinger</a>
+                                  <a href="#" class="ItemListChildCategory">Stiker Kaca</a>
+                                  <a href="#" class="ItemListChildCategory">Tanaman Artifical</a>
+                                  <a href="#" class="ItemListChildCategory">Taplak Meja</a>
+                                  <a href="#" class="ItemListChildCategory">Tempat Lilin</a>
+                                  <a href="#" class="ItemListChildCategory">Vas Bunga</a>
+                                  <a href="#" class="ItemListChildCategory">Wall Sticker</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </NavigationMenuContent>
               </NavigationMenuItem>
             </NavigationMenuList>
