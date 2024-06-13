@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer components {
+
+  .trendkingKeywordList {
+    @apply text-[#6D7588] hover:text-[#00AA5B] text-xs cursor-pointer overflow-hidden overflow-ellipsis leading-4 whitespace-nowrap mr-[2%];
+  }
+
+  .MegaMenuContainer {
+    border-top: 1px solid var(--NN1000, rgba(0, 0, 0, 0.12));
+    width: 100%;
+    background-color: var(--NN0, #FFFFFF);
+    position: fixed;
+    top: 121px;
+    left: 0px;
+    right: 0px;
+    z-index: 496;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 10px 8px -8px;
+    animation-name: animation-zww5t0;
+    animation-duration: 0.4s;
+    height: 493px;
+    visibility: visible;
+    overflow: hidden;
+  }
+
+}
