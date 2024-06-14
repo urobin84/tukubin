@@ -52,6 +52,7 @@
     -webkit-box-align: center;
     align-items: center;
     -webkit-font-smoothing: antialiased;
+    @apply hover:text-green-600;
   }
 
   .CategoryContainer {
@@ -84,6 +85,7 @@
     -webkit-font-smoothing: antialiased;
     line-height: 14px;
     height: 29px;
+    @apply hover:bg-slate-100;
   }
 
   .AllCategoryCild {
@@ -112,6 +114,7 @@
     line-height: 20px;
     color: var(--NN950, #212121);
     font-size: 12px;
+    @apply hover:text-green-600;
   }
 
   .ListChildCategoryContainer {
@@ -124,12 +127,13 @@
     -webkit-font-smoothing: antialiased;
     white-space: normal;
   }
-
+  
   .ItemListChildCategory {
     line-height: 1.5;
     margin: 8px 0px;
     display: flex;
     color: var(--NN950, #212121);
+    @apply hover:text-green-600;
   }
 
   .ImageCategoryCaption {

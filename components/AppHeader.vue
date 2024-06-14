@@ -28,7 +28,7 @@
             <NavigationMenuList>
               <NavigationMenuItem>
                 <NavigationMenuTrigger
-                  class="text-[#212121] text-sm leading-[18px] text-ellipsis h-[40px] w-[74px] flex items-center justify-center">
+                  class="text-[#212121] text-sm leading-[18px] text-ellipsis h-[40px] w-[74px] flex items-center justify-center hover:bg-slate-100">
                   Kategori</NavigationMenuTrigger>
                 <NavigationMenuContent>
                   <div>
